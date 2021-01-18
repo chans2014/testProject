@@ -14,4 +14,5 @@ public interface UserMapperInterFace {
     public  int InsertUser(User user);
     public  int UpdateUser(User user);
     public  int DelUser(int id);
+    public  String fs();
 }
