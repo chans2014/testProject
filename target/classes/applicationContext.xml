@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--配置所有bean的唯一id-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:annotation-config/>
+
+
+<!--    <bean id="CStartEventHandler" class="com.alikes.controller.CStartEventHandler">-->
+<!--&lt;!&ndash;        <property name="name" value="2"></property>&ndash;&gt;-->
+<!--    </bean>-->
+
+
+<!--    <bean name="temp" abstract="true">-->
+<!--        <property name="msg" value="抽象类"></property>-->
+<!--    </bean>-->
+
+<!--    &lt;!&ndash;类对象唯一id&ndash;&gt;-->
+<!--    <bean id="myhome" class="com.alikes.controller.Home"   init-method="init" destroy-method="destoryq" autowire="constructor">-->
+<!--        <constructor-arg index="0" ref="parentHome"></constructor-arg>-->
+<!--        <constructor-arg index="1" value="sfs"></constructor-arg>-->
+<!--<constructor-arg index="2" >-->
+<!--   <null></null>-->
+<!--</constructor-arg>-->
+
+
+<!--        &lt;!&ndash;给对象里面的属性初始化赋值&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="msg" value="fsfsf"></property>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--&lt;!&ndash;    <bean id="ini" class="com.alikes.controller.Init"></bean>&ndash;&gt;-->
+
+<!--    <bean id="parentHome" class="com.alikes.controller.parentHome" p:msg="父类P">-->
+<!--    </bean>-->
+
+<!--    <bean id="refclass" class="com.alikes.controller.refclass">-->
+<!--        <property name="name" value="dgdg"></property>-->
+<!--    </bean>-->
+<!--&lt;!&ndash;<bean id="UserMapper" class="com.alikes.dao.UserMapper"></bean>&ndash;&gt;-->
+
+<!--    <bean id="Mybatist" class="com.alikes.controller.Mybatist" ></bean>-->
+</beans>
